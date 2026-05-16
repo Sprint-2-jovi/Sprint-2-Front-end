@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#d9d9d9;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.gravação{
+    width:260px;
+    height:100vh;
+    max-height:600px;
+    position:relative;
+    overflow:hidden;
+    background:#000;
+}
+
+.tela-fundo{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.config{
+    width:100%;
+    height:50px;
+    background:#f4f4f4;
+    position:absolute;
+    top:0;
+    left:0;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    padding-right:12px;
+    z-index:2;
+}
+
+#abrir-config{
+    width:30px;
+    height:30px;
+    border:none;
+    border-radius:50%;
+    background:#8c8cff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    opacity:0.8;
+}
+
+#abrir-config img{
+    width:15px;
+}
+
+.resolucao{
+    width:100%;
+    position:absolute;
+    bottom:105px;
+    display:flex;
+    justify-content:center;
+    z-index:2;
+}
+
+.modo-gravação{
+    width:92px;
+    height:20px;
+    border:none;
+    border-radius:20px;
+    background:rgba(255,255,255,0.8);
+    color:#6b63ff;
+    font-size:12px;
+    font-weight:bold;
+}
+
+.modo-gravação-ativo{
+    background:#ffffff;
+    color:#6b63ff;
+}
+
+.modos{
+    display:none;
+}
+
+.funcoes-gravação{
+    width:100%;
+    height:78px;
+    background:#f4f4f4;
+    position:absolute;
+    bottom:0;
+    left:0;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    z-index:2;
+}
+
+.funcoes-gravação button{
+    border:none;
+    background:none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.funcoes-gravação img{
+    width:28px;
+    opacity:0.7;
+}
+
+#tirar-foto{
+    width:54px;
+    height:54px;
+    border-radius:50%;
+    border:3px solid #bdbdbd;
+    background:#5c5cff;
+    box-shadow:
+        0 0 0 3px #ffffff,
+        0 0 0 5px #cfcfcf;
+}

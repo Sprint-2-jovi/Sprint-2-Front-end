@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Cam</title><!-- Basic Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+    <!-- Filled Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/filled/boxicons-filled.min.css" rel="stylesheet">
+    <!-- Brand Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/opçoes-claro.css">
+
+</head>
+<body>
+    <header>
+        
+    <nav class="config">
+
+        <button  id="close-settings" onclick="window.location.href='tirar-foto-escura.html'"><i class="bx bx-x" style="color:#807a7a;"></i>
+        </button>
+
+        <button id="themeBtn" class="light-btn">
+
+        <i class="bx bx-sun" style="color:#807a7a;"></i>
+            </button>
+
+       <div class="menu-grid">
+
+    <button class="menu-item" onclick="abrirPanorama()">
+
+        <div class="circle">
+            <i class="bx bx-image-alt" style="color:#807a7a;"></i>
+        </div>
+
+        <span>PANORAMA</span>
+
+    </button>
+
+
+    <button class="menu-item" onclick="abrirModoPro()">
+
+        <div class="circle">
+           <i class="bx bx-shutter" style="color:#807a7a;" ></i>
+        </div>
+
+        <span>PRO</span>
+
+    </button>
+
+
+    <button class="menu-item" onclick="abrirCameraLenta()">
+
+        <div class="circle">
+           <i class="bx bx-play-circle-alt" style="color:#807a7a;"></i>
+        </div>
+
+        <span>CÂMERA LENTA</span>
+
+    </button>
+
+
+    <button class="menu-item" onclick="abrirTimeLapse()">
+
+        <div class="circle">
+            <i class="bx bx-timer" style="color:#807a7a;"></i>
+        </div>
+
+        <span>TIME-LAPSE</span>
+
+    </button>
+
+
+    <button class="menu-item" onclick="abrirLeitura()">
+
+        <div class="tag">NOVO</div>
+
+        <div class="circle outline">
+           <i class="bx bx-scan" style="color:#807a7a;" ></i>
+        </div>
+
+        <span>LEITURA E<br>TRANSCRIÇÃO</span>
+
+    </button>
+
+
+    <button class="menu-item" onclick="abrirModoNoturno()">
+
+        <div class="circle">
+            <i class="bx bx-moon" style="color:#807a7a;"></i>
+        </div>
+
+        <span>NOTURNO</span>
+
+    </button>
+
+</div>
+
+
+    </nav>
+    </header>
+</body>
+</html>
